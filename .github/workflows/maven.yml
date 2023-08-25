@@ -31,7 +31,7 @@ jobs:
       run: mvn -B package --file pom.xml
       
     - name: Build Docker Image
-      run: build -t pramathsahoo/hello-world-java-demo:0.0.1.Release .
+      run: docker build -t pramathsahoo/hello-world-java-demo:0.0.1.Release .
 
       
 

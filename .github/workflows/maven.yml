@@ -39,7 +39,7 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Push Docker Image
-      run: docker push pramathsahoo/hello-world-java-demo:0.0.2.Release 
+      run: docker push pramathsahoo/hello-world-java-demo:0.0.1.Release 
 
    
 

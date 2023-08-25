@@ -34,7 +34,7 @@ jobs:
       run: docker build -t pramathsahoo/hello-world-java-demo:0.0.1.Release .
 
     - name: push docker image 
-      run: docker push -t pramathsahoo/hello-world-java-demo:0.0.1.Release .
+      run: docker push pramathsahoo/hello-world-java-demo:0.0.1.Release .
 
       
 

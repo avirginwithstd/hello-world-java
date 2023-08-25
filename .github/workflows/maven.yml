@@ -30,11 +30,10 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
       
-    - name: Build Docker Image
-      run: docker build -t pramathsahoo/hello-world-java-demo:0.0.1.Release .
+    # - name: Build Docker Image
+    #   run: docker build -t pramathsahoo/hello-world-java-demo:0.0.1.Release .
 
-    - name: push docker image 
-      run: docker push pramathsahoo/hello-world-java-demo:0.0.1.Release .
+   
 
       
 
